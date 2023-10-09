@@ -1,12 +1,12 @@
-openapi: "3.0.0"
+openapi: 3.0.1
 info:
-  title: "Chart Releaser Action"
-  description: "Automatically generated package.json, please edit manually"
+  title: Chart Releaser Action
+  description: Automatically generated package.json, please edit manually
   x-cortex-git:
     github:
-      repository: "JupiterOne/chart-releaser-action"
+      repository: JupiterOne/chart-releaser-action
   x-cortex-owners:
-    - type: "group"
-      name: "JupiterOne/sre"
-  x-cortex-service-groups: "tier-4"
-  x-cortex-tag: "chart-releaser-action"
+    - type: group
+      name: JupiterOne/sre
+  x-cortex-service-groups: tier-4
+  x-cortex-tag: chart-releaser-action
