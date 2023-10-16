@@ -4,9 +4,11 @@ info:
   description: Automatically generated package.json, please edit manually
   x-cortex-git:
     github:
-      repository: JupiterOne/chart-releaser-action
+      repository: JupiterOne/JupiterOne/chart-releaser-action
   x-cortex-owners:
     - type: group
       name: JupiterOne/sre
   x-cortex-service-groups: tier-4
   x-cortex-tag: chart-releaser-action
+  x-cortex-dependency:
+    - tag: base-deploy
