@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Chart Releaser Action
+  title: chart-releaser-action
   description: Automatically generated package.json, please edit manually
   x-cortex-git:
     github:
